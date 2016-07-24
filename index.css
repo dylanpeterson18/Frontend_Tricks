@@ -1,0 +1,117 @@
+.everything{
+  background-color: rgba(10, 218, 210, 0.55);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  background: linear-gradient(270deg, #09f77b, #5738d4);
+  background-size: 200% 200%;
+  -webkit-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.title{
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: 2;
+}
+
+ul.links {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    justify-self: flex-end;
+}
+
+li {
+    padding: 10px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.link {
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50%;
+    overflow:  hidden;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+
+
+
+
+.link:hover {
+  overflow: visible;
+	transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+
+}
+
+.link::after{
+    -webkit-transform-origin: 50% 0%;
+	-moz-transform-origin: 50% 0%;
+	-webkit-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+	-moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+}
+
+.title{
+  width: 17%;
+  height: 6%;
+}
+
+.name{
+  width: 100%;
+  height: 100%;
+}
+
+
+.sticker {
+  width: 180px;
+  height: 180px;
+}
+
+
+.example-1 .sticker-img {
+  background-image: url(beach.png);
+  background-size: cover;
+}
+
+.example-2 .sticker-img {
+  background-image: url(pyramids.png);
+  opacity: 0.6;
+  background-size: cover;
+}
+
+
+.stickers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
