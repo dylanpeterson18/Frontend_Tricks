@@ -13,10 +13,13 @@ Frontend Tricks is a frontend site written in JS, CSS, and HTML implementing som
 - Flipping Tiles
 - Gradient Animation
 
+## Gradient Animation
+The header shifts from purple to blue every few seconds
 
-## Animate.css
-My name wobbles on page load.
-![Wobble](screenshots/header.png)
+blue
+![Sticker](screenshots/blue.png)
+purple
+![Sticker](screenshots/purple.png)
 
 ## Vivus.js
 ###Draws SVGs
@@ -41,17 +44,10 @@ Images slide every few seconds and can be grabbed and moved fluidly with cursor 
 ## Flipping Tiles
 Tiles flip on hover to reveal more information
 ![Sticker](screenshots/flip_begin.png)
-![Sticker](screenshots/flip_mid.png)
 ![Sticker](screenshots/flip_mid2.png)
 ![Sticker](screenshots/flip_after.png)
 
 ##Zooming Tiles
-Tiles create zooming effect on hover ![Sticker](screenshots/zoom_before.png) ![Sticker](screenshots/zoom_after.png)
-
-## Gradient Animation
-The header shifts from purple to blue every few seconds
-
-blue
-![Sticker](screenshots/blue.png)
-purple
-![Sticker](screenshots/purple.png)
+Tiles create zooming effect on hover
+![Sticker](screenshots/zoom_before.png)
+![Sticker](screenshots/zoom_after.png)
