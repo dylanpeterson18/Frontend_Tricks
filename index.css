@@ -26,7 +26,7 @@
 .list-items{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: 6% 0%;
   padding: 47px 0px;
   background-color: #03A9F4;
@@ -145,6 +145,7 @@
 	}
 
 .flip-container, .front, .back {
+  margin-right: 60px;
   width: 300px;
   height: 317px;
   background-color: white;
@@ -239,19 +240,36 @@ li {
     width: 40px;
 }
 
-.link {
-    
+.link:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+  -webkit-transition: width .5s ease, background-color .5s ease;
+  -moz-transition: width .5s ease, background-color .5s ease;
+  position:absolute;
+  left:0;
+  bottom:0;
+}
+
+.link{
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 15px;
+  position: relative;
 }
 
 
-
-
-.link:hover {
-
-}
-
-.link::after{
-
+.link:hover:after {
+  width: 100%;
+  background: white;
 }
 
 .title{
@@ -260,7 +278,7 @@ li {
 }
 
 .name{
-  width: 82%;
+  width: 235px;
   height: 100%;
 }
 
@@ -272,18 +290,19 @@ li {
 
 
 .example-1 .sticker-img {
-  background-image: url(beach.png);
+  background-image: url(pyramids.png);
   background-size: cover;
 }
 
 .example-2 .sticker-img {
-  background-image: url(pyramids.png);
+  background-image: url(antarctica.png);
   background-size: cover;
 }
 
 .example-3 .sticker-img {
-  background-image: url(pyramids.png);
+  background-image: url(gopher.png);
   background-size: cover;
+  background-position: center center;
 }
 
 
