@@ -15,24 +15,21 @@ Frontend Tricks is a frontend site written in JS, CSS, and HTML implementing som
 
 
 ## Animate.css
-These wobble back and forth on page load
-![Wobble](screenshots/wobble1.png)
-![Wobble](screenshots/wobble2.png)
+My name wobbles on page load.
+![Wobble](screenshots/header.png)
 
 ## Vivus.js
 ###Draws SVGs
-Beginning
-![Logo](screenshots/logo_begin.png)
+Beginning ![Logo](screenshots/logo_begin.png)
 
-Middle
-![Logo](screenshots/logo_middle.png)
+Middle ![Logo](screenshots/logo_middle.png)
 
-End
-![Logo](screenshots/logo_end.png)
+End ![Logo](screenshots/logo_end.png)
 
 
 ## Sticker.js
 Images behave like real life stickers!
+
 ![Sticker](screenshots/sticker1.png)
 ![Sticker](screenshots/sticker2.png)
 ![Sticker](screenshots/sticker3.png)
@@ -49,12 +46,11 @@ Tiles flip on hover to reveal more information
 ![Sticker](screenshots/flip_after.png)
 
 ##Zooming Tiles
-Tiles create zooming effect on hover
-![Sticker](screenshots/zoom_before.png)
-![Sticker](screenshots/zoom_after.png)
+Tiles create zooming effect on hover ![Sticker](screenshots/zoom_before.png) ![Sticker](screenshots/zoom_after.png)
 
 ## Gradient Animation
 The header shifts from purple to blue every few seconds
+
 blue
 ![Sticker](screenshots/blue.png)
 purple
