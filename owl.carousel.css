@@ -6,9 +6,11 @@
   display: flex;
   width: 100%;
   height: auto;
+
 }
 
 #owl-demo{
-  margin-top: 8%;
-  margin-bottom: 8%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #03A9F4;
 }
