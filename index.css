@@ -236,6 +236,7 @@ li {
 .logo {
     position: absolute;
     left: 45%;
+    top: 8px;
     height: 40px;
     width: 40px;
 }
