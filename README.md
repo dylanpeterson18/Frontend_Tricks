@@ -49,5 +49,6 @@ Tiles flip on hover to reveal more information
 
 ##Zooming Tiles
 Tiles create zooming effect on hover
+
 ![Sticker](screenshots/zoom_before.png)
 ![Sticker](screenshots/zoom_after.png)
